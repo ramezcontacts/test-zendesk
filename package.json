@@ -9,25 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@hookform/resolvers": "^2.6.1",
-    "@nextui-org/react": "^1.0.0-beta.9",
-    "axios": "^0.27.2",
-    "next": "12.2.2",
-    "next-auth": "^4.9.0",
+    "@hookform/resolvers": "^3.1.1",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "axios": "^1.4.0",
+    "next": "13.4.5",
+    "next-auth": "^4.22.1",
     "react": "18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "^7.12.1",
-    "react-spinners": "^0.13.4",
-    "swr": "^1.3.0",
-    "yup": "^0.32.9"
+    "react-hook-form": "^7.44.3",
+    "react-spinners": "^0.13.8",
+    "swr": "^2.1.5",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2"
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.5"
   }
 }
