@@ -1,0 +1,101 @@
+
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px 0px;
+  width: 100%;
+  text-align: left;
+  border-top: 1px solid #ddd !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  overflow: hidden !important;
+  outline: none !important;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover,
+.active {
+  background-color: #fff;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  /* margin-left: auto; */
+  transition: transform .35s ease;
+  margin-right: 5px;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotateZ(270deg) !important;
+}
+svg.accordion__icon {
+  transform: rotateZ(90deg);
+}
+
+.accordion__content {
+  display: none;
+  transition: 1s all ease-in-out;
+  -webkit-animation: fadein .35s ease-in;
+  animation: fadein .35s ease-in;
+}
+.accordion.active + .accordion__content {
+  display: block;
+  
+  -webkit-animation: fadein .35s ease-in;
+  animation: fadein .35s ease-in;
+}
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: #fff;
+  
+  -webkit-animation: fadein .35s ease-in;
+  animation: fadein .35s ease-in;
+  
+}
+.accordion.active + .accordion__content {
+  padding-top: 5px;
+  -webkit-animation: fadein .35s ease-in;
+  animation: fadein .35s ease-in;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}
+.nextui-c-kRHeuF.nextui-c-kRHeuF-iirCFfU-css {
+  padding: 0px;
+  padding-left: 12px;
+}
+a.nextui-c-gUrcXm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+a.nextui-c-gUrcXm svg{
+  margin-left: 5px;
+}

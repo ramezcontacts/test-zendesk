@@ -1,0 +1,33 @@
+{
+  "name": "zen-server-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^2.6.1",
+    "@nextui-org/react": "^1.0.0-beta.9",
+    "axios": "^0.27.2",
+    "next": "12.2.2",
+    "next-auth": "^4.9.0",
+    "react": "18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.12.1",
+    "react-spinners": "^0.13.4",
+    "swr": "^1.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
